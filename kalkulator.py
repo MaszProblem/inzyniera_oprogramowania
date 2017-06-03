@@ -1,9 +1,9 @@
 print('Hello world')
 
 def dodawanie():
-	a =int(input())
-	b =int(input())
-	print(a+b)
+	wynik = a + b
+	return wynik
+	
 
 def get_info():
 	print('to jest prosty kalkulator')
